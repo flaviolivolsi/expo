@@ -212,8 +212,6 @@ public class ReactAndroidCodeTransformer {
         return n;
       }
     });
-    FILES_TO_MODIFY.put("modules/storage/AsyncStorageModule.java", null);
-    FILES_TO_MODIFY.put("modules/storage/ReactDatabaseSupplier.java", null);
     FILES_TO_MODIFY.put("modules/dialog/DialogModule.java", new MethodVisitor() {
 
       @Override
