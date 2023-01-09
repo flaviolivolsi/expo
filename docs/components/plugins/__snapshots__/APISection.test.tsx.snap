@@ -1124,11 +1124,7 @@ This should come from the user field of an
       </div>
     </blockquote>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -1311,11 +1307,7 @@ value depending on the state of the credential.
       Determine if the current device's operating system supports Apple authentication.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -1579,11 +1571,7 @@ value depending on the state of the credential.
 Calling this method will show the sign in modal before actually refreshing the user credentials.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -1904,11 +1892,7 @@ You can use
 the user, since this remains the same for apps released by the same developer.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -2216,11 +2200,7 @@ from using
        methods.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -2516,11 +2496,7 @@ sign-out operation.
     </div>
     <br />
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -5034,11 +5010,7 @@ OAuth 2.0 protocol
          
       </strong>
       <div
-<<<<<<< HEAD
-        class="css-mfw8bi-PlatformTag"
-=======
-        class="css-10qwqzc-PlatformTag"
->>>>>>> 35e26a6de3 (update snapshots)
+        class="css-1b8ehh7-PlatformTag"
       >
         <svg
           color="var(--blue12)"
@@ -7311,11 +7283,7 @@ Same as
 This can be used to quickly create specific permission hooks in every module.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="css-1gu5rqd-TextComponent"
@@ -7398,11 +7366,7 @@ This can be used to quickly create specific permission hooks in every module.
       </pre>
     </pre>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -7639,11 +7603,7 @@ This can be used to quickly create specific permission hooks in every module.
       Checks user's permissions for accessing the camera.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -7845,11 +7805,7 @@ This can be used to quickly create specific permission hooks in every module.
       .
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -8185,11 +8141,7 @@ the platform.
       Scan bar codes from the image given by the URL.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -8416,11 +8368,7 @@ code.
       An object obtained by permissions get and request functions.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -10366,11 +10314,7 @@ exports[`APISection expo-pedometer 1`] = `
       </a>
     </h3>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -10648,11 +10592,7 @@ exports[`APISection expo-pedometer 1`] = `
       Get the step count between two dates.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -10894,11 +10834,7 @@ a start date that is more than seven days in the past returns only the available
       Returns whether the pedometer is enabled on the device.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -11065,11 +11001,7 @@ available on this device.
       </a>
     </h3>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -11318,11 +11250,7 @@ provided with a single argument that is
       Subscribe to pedometer updates.
     </p>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"
@@ -11541,11 +11469,7 @@ provided with a single argument that is
       </a>
     </h3>
     <div
-<<<<<<< HEAD
-      class="css-1cc2eo9"
-=======
       class="css-10kkd4f"
->>>>>>> 35e26a6de3 (update snapshots)
     >
       <h4
         class="  css-1gu5rqd-TextComponent"

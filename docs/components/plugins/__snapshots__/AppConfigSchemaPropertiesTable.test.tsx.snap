@@ -3,11 +3,7 @@
 exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
 <div>
   <div
-<<<<<<< HEAD
-    class="css-mhnilp-AppConfigProperty"
-=======
-    class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+    class="css-10js1fp-AppConfigProperty"
   >
     <p
       class="  css-yszm2s-TextComponent"
@@ -80,11 +76,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
       Name of your app.
     </p>
     <details
-<<<<<<< HEAD
-      class="css-1a7iuj-Collapsible"
-=======
-      class="css-1sodxnl-Collapsible"
->>>>>>> 35e26a6de3 (update snapshots)
+      class="css-extjfn-Collapsible"
     >
       <summary
         class="css-1iomq2j-Collapsible"
@@ -131,11 +123,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
     <div />
   </div>
   <div
-<<<<<<< HEAD
-    class="css-mhnilp-AppConfigProperty"
-=======
-    class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+    class="css-10js1fp-AppConfigProperty"
   >
     <p
       class="  css-yszm2s-TextComponent"
@@ -208,11 +196,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
       Configuration for the bottom navigation bar on Android.
     </p>
     <details
-<<<<<<< HEAD
-      class="css-1a7iuj-Collapsible"
-=======
-      class="css-1sodxnl-Collapsible"
->>>>>>> 35e26a6de3 (update snapshots)
+      class="css-extjfn-Collapsible"
     >
       <summary
         class="css-1iomq2j-Collapsible"
@@ -257,11 +241,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
       </div>
     </details>
     <details
-<<<<<<< HEAD
-      class="css-1a7iuj-Collapsible"
-=======
-      class="css-1sodxnl-Collapsible"
->>>>>>> 35e26a6de3 (update snapshots)
+      class="css-extjfn-Collapsible"
     >
       <summary
         class="css-1iomq2j-Collapsible"
@@ -307,11 +287,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
     </details>
     <div>
       <div
-<<<<<<< HEAD
-        class="css-mhnilp-AppConfigProperty"
-=======
-        class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+        class="css-10js1fp-AppConfigProperty"
       >
         <p
           class="  css-yszm2s-TextComponent"
@@ -393,11 +369,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
           Determines how and when the navigation bar is shown.
         </p>
         <details
-<<<<<<< HEAD
-          class="css-1a7iuj-Collapsible"
-=======
-          class="css-1sodxnl-Collapsible"
->>>>>>> 35e26a6de3 (update snapshots)
+          class="css-extjfn-Collapsible"
         >
           <summary
             class="css-1iomq2j-Collapsible"
@@ -443,11 +415,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
         </details>
         <div>
           <div
-<<<<<<< HEAD
-            class="css-mhnilp-AppConfigProperty"
-=======
-            class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+            class="css-10js1fp-AppConfigProperty"
           >
             <p
               class="  css-yszm2s-TextComponent"
@@ -533,11 +501,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
         </div>
       </div>
       <div
-<<<<<<< HEAD
-        class="css-mhnilp-AppConfigProperty"
-=======
-        class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+        class="css-10js1fp-AppConfigProperty"
       >
         <p
           class="  css-yszm2s-TextComponent"
@@ -637,11 +601,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
     </div>
   </div>
   <div
-<<<<<<< HEAD
-    class="css-mhnilp-AppConfigProperty"
-=======
-    class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+    class="css-10js1fp-AppConfigProperty"
   >
     <p
       class="  css-yszm2s-TextComponent"
@@ -714,11 +674,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
       Configuration for setting an array of custom intent filters in Android manifest.
     </p>
     <details
-<<<<<<< HEAD
-      class="css-1a7iuj-Collapsible"
-=======
-      class="css-1sodxnl-Collapsible"
->>>>>>> 35e26a6de3 (update snapshots)
+      class="css-extjfn-Collapsible"
     >
       <summary
         class="css-1iomq2j-Collapsible"
@@ -801,11 +757,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
     </blockquote>
     <div>
       <div
-<<<<<<< HEAD
-        class="css-mhnilp-AppConfigProperty"
-=======
-        class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+        class="css-10js1fp-AppConfigProperty"
       >
         <p
           class="  css-yszm2s-TextComponent"
@@ -889,11 +841,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
         <div />
       </div>
       <div
-<<<<<<< HEAD
-        class="css-mhnilp-AppConfigProperty"
-=======
-        class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+        class="css-10js1fp-AppConfigProperty"
       >
         <p
           class="  css-yszm2s-TextComponent"
@@ -970,11 +918,7 @@ exports[`AppConfigSchemaPropertiesTable correctly matches snapshot 1`] = `
         </p>
         <div>
           <div
-<<<<<<< HEAD
-            class="css-mhnilp-AppConfigProperty"
-=======
-            class="css-1ty0ocu-AppConfigProperty"
->>>>>>> 35e26a6de3 (update snapshots)
+            class="css-10js1fp-AppConfigProperty"
           >
             <p
               class="  css-yszm2s-TextComponent"
