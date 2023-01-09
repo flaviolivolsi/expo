@@ -12,22 +12,6 @@ import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.uimanager.events.EventDispatcher;
 import java.util.List;
 
-class ReaUiImplementationProvider extends UIImplementationProvider {
-
-  @Override
-  UIImplementation createUIImplementation(
-      ReactApplicationContext reactContext,
-      ViewManagerRegistry viewManagerRegistry,
-      EventDispatcher eventDispatcher,
-      int minTimeLeftInFrameForNonBatchedOperationMs) {
-    return new com.facebook.react.uimanager.ReanimatedUIImplementation(
-        reactContext,
-        viewManagerRegistry,
-        eventDispatcher,
-        minTimeLeftInFrameForNonBatchedOperationMs);
-  }
-}
-
 @ReactModule(name = UIManagerModule.NAME)
 public class ReanimatedUIManager extends UIManagerModule {
 
@@ -38,7 +22,6 @@ public class ReanimatedUIManager extends UIManagerModule {
     super(
         reactContext,
         viewManagersList,
-        new ReaUiImplementationProvider(),
         minTimeLeftInFrameForNonBatchedOperationMs);
   }
 

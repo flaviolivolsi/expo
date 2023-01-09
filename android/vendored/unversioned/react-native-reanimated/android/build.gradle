@@ -548,6 +548,13 @@ android {
                 }
             }
 
+            // ReanimatedUIManager & ReanimatedUIImplementation
+            if (REACT_NATIVE_MINOR_VERSION <= 70) {
+                // srcDirs += "src/reactNativeVersionPatch/ReanimatedUIManager/70"
+            } else {
+                srcDirs += "src/reactNativeVersionPatch/ReanimatedUIManager/latest"
+            }
+
             // UIImplementation
             if (REACT_NATIVE_MINOR_VERSION <= 64) {
                 srcDirs += "src/reactNativeVersionPatch/UIImplementation/64"
@@ -941,12 +948,6 @@ repositories {
 dependencies {
     // noinspection GradleDynamicVersion
     implementation "com.facebook.yoga:proguard-annotations:1.19.0"
-    if (isDeveloperMode() && !isNewArchitectureEnabled()) {
-        implementation "com.facebook.fbjni:fbjni:" + FBJNI_VERSION
-    }
-    else {
-        implementation "com.facebook.fbjni:fbjni-java-only:" + FBJNI_VERSION
-    }
     implementation "com.facebook.react:react-native:+" // From node_modules
     implementation "androidx.transition:transition:1.1.0"
     implementation "androidx.core:core:1.6.0"
