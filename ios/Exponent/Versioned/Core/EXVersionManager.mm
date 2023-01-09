@@ -30,7 +30,7 @@
 #import <React/RCTLocalAssetImageLoader.h>
 #import <React/RCTGIFImageDecoder.h>
 #import <React/RCTImageLoader.h>
-#import <React/RCTAsyncLocalStorage.h>
+//#import <React/RCTAsyncLocalStorage.h>
 #import <React/RCTJSIExecutorRuntimeInstaller.h>
 #import <React/RCTInspectorDevServerHelper.h>
 
@@ -417,7 +417,7 @@ RCT_EXTERN void EXRegisterScopedModule(Class, ...);
     }
     [extraModules addObject:[self getModuleInstanceFromClass:[self getModuleClassFromName:"DevMenu"]]];
     [extraModules addObject:[self getModuleInstanceFromClass:[self getModuleClassFromName:"RedBox"]]];
-    [extraModules addObject:[self getModuleInstanceFromClass:RCTAsyncLocalStorageCls()]];
+//    [extraModules addObject:[self getModuleInstanceFromClass:RCTAsyncLocalStorageCls()]];
   }
 
   return extraModules;
@@ -526,16 +526,16 @@ RCT_EXTERN void EXRegisterScopedModule(Class, ...);
     } else {
       RCTLogWarn(@"No exceptions manager provided when building extra modules for bridge.");
     }
-  } else if (moduleClass == RCTAsyncLocalStorageCls()) {
-    NSString *documentDirectory;
-    if (_params[@"fileSystemDirectories"]) {
-      documentDirectory = _params[@"fileSystemDirectories"][@"documentDirectory"];
-    } else {
-      NSArray<NSString *> *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-      documentDirectory = [documentPaths objectAtIndex:0];
-    }
-    NSString *localStorageDirectory = [documentDirectory stringByAppendingPathComponent:EX_UNVERSIONED(@"RCTAsyncLocalStorage")];
-    return [[moduleClass alloc] initWithStorageDirectory:localStorageDirectory];
+//  } else if (moduleClass == RCTAsyncLocalStorageCls()) {
+//    NSString *documentDirectory;
+//    if (_params[@"fileSystemDirectories"]) {
+//      documentDirectory = _params[@"fileSystemDirectories"][@"documentDirectory"];
+//    } else {
+//      NSArray<NSString *> *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//      documentDirectory = [documentPaths objectAtIndex:0];
+//    }
+//    NSString *localStorageDirectory = [documentDirectory stringByAppendingPathComponent:EX_UNVERSIONED(@"RCTAsyncLocalStorage")];
+//    return [[moduleClass alloc] initWithStorageDirectory:localStorageDirectory];
   }
 
   return [moduleClass new];
